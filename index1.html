@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"> 
+    <title>Fiche de personnage</title>
+	<link href="styles/style.css" rel="stylesheet" type="text/css">
+		
+	</head>
+	
+	<body>
+	
+	<form>
+	<fieldset>
+	
+	<div style="background-color: #C0C0C0">
+	
+	<div style="background-color: #10032E">
+	
+	<div style="background-color: black">
+	
+	<img src="https://www.cjoint.com/data3/KGhwZvQdLx8_sky.png" align="left" height="180" width="155";">
+	
+	
+	<table align="right-side" style="border-spacing: 25px;">
+		<tr>
+		
+		<th> Nom: <input type="text" name="name" style="width: 140px" /></td>
+		<td> Magie: <input type="number" name="nm" min="-99" max="99" style="width: 30px"/></td>
+		<td> <label style="font-size: 40px; color: white" /> / </td>
+		<td> <input type="number" name="nmm" min="0" max="99" style="width: 30px"/>Max</td>
+		<td> Pv: <input type="number" name="pv" min="-99" max="999" style="width: 30px"/></td>
+		<td> <label style="font-size: 40px; color: white" /> / </td>
+		<td> <input type="number" name="pvmax" min="-99" max="999" style="width: 30px"/>Max</td>
+		
+		</tr>
+		</table>
+		
+		<table align="right-side" style="border-spacing: 25px;">
+		<tr> 
+		
+		<td> Race: 
+		<select style="width: 100px;" name="race">
+		<option value="Haut_elfe">Haut elfe</option>
+		<option value="Argonien">Argonien</option>
+		<option value="Elfe_des_bois">Elfe des bois</option>
+		<option value="Bréton">Bréton</option>
+		<option value="Elfe_noir">Elfe noir</option>
+		<option value="Impérial">Impérial</option>
+		<option value="Khajiit">Khajiit</option>
+		<option value="Nordique">Nordique</option>
+		<option value="Orque">Orque</option>
+		<option value="Rougegarde">Rougegarde</option>
+		</select></td>
+		<td> Classe: <input type="text" name="class" style="width: 110px;"/></td>
+		<td> Alignement: 
+		<select style="width: 100px;" name="alignement">
+		<option value="Neutre">Neutre</option>
+		<option value="Neutre">Neutre Bon</option>
+		<option value="Neutre">Neutre Mauvais</option>
+		<option value="Neutre">Loyal Neutre</option>
+		<option value="Neutre">Chaotique Neutre</option>
+		<option value="Neutre">Loyal Bon</option>
+		<option value="Neutre">Chaotique Bon</option>
+		<option value="Neutre">Loyal Mauvais</option>
+		<option value="Neutre">Chaotique mauvais</option>
+		</select></td>
+		<td> Lvl: <input type="number" name="lvl" min="1" max="99"/></td>
+		
+		</tr>
+		</table>
+		
+		
+	<h3 style="background:#fff;color:#000;text-align:center;">Descriptif du personnage :</h3>
+
+	</div>
+	
+	<div style="background-color: #10032E">
+	
+
+		<table align="right-side" style="border-spacing: 25px;">
+		
+		<tr>
+		
+		<td> Genre: 
+		<select style="width: 40px" name="genre">
+		<option value="M">M</option>
+		<option value="F">F</option>
+		</select></td>
+
+		<td> Taille: <input type="text" name="taille" style="width: 40px"/></td>
+		<td> Poids: <input type="text" name="poids" style="width: 40px"/></td>
+		<td> Yeux: <input type="text" name="Yeux" style="width: 100px"/></td></td>
+		<td> Cheveux: <input type="text" name="cheveux" style="width: 100px"/></td></td>
+		<td> Age: <input type="text" name="âge" style="width: 40px"/></td>
+		<td> Réputation: <input type="number" name="rep" min="-99" max="99"/></td>
+		
+		
+		</tr>
+		</table>
+
+		<table align="right-side" style="border-spacing: 25px;">
+		
+		<tr>
+		
+		<td> Lieu de naissance: <input type="text" name="ldn" style="width: 200px"/></td>
+		<td> Profession: <input type="text" name="profession" style="width: 150px"/></td>
+		<td> Joué par: <input type="text" name="player" style="width: 150px"/></td>
+
+		
+		</tr>
+		</table>
+		
+	
+	<h3 style="background:#fff;color:#000;text-align:center;margin-bottom: 10px;">Caracteritiques :</h3>
+	
+	</div>
+	</div>
+	
+	<div style="background-image: url('https://i.pinimg.com/736x/7a/96/76/7a9676a61b68a1f80701ac1c35a57adf--skyrim-ost-skyrim-game.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center">
+	
+	<br><br>
+	
+	<table align="center" style="border-spacing: 50px; width: 850px; color: white; text-align: right">
+	<tr> 
+	<td>
+	
+	<label style=" background:#1476D2;color:#000;"> Intelligence :</label><input type="number" name="inte" id="intel" min="0" max="100"/>
+	<input type="checkbox" name="Mal" id="malus1" value="10"/><input type="checkbox" name="Mal" id="malus2" value="10"/></td>		
+	<td><label style=" background:#1CB826;color:#000;"> Dexterité : </label><input type="number" name="Dex" id="dex" min="0" max="100"/>
+	<input type="checkbox" name="Mal" id="malus3" value="10"/><input type="checkbox" name="Mal" id="malus4" value="10"/></td>		
+	<td><label style=" background:#E63062;color:#000;"> Force : </label><input type="number" name="For" min="0" max="100"/>
+	<input type="checkbox" name="Mal" id="malus5" value="10"/><input type="checkbox" name="Mal" id="malus6" value="10"/></td>		
+	</tr>
+	<tr>
+	<td><label style=" background:#1476D2;color:#000;"> Sagesse : </label><input type="number" name="Sag" min="0" max="100"/>
+	<input type="checkbox" name="Mal" id="malus7" value="10"/><input type="checkbox" name="Mal" id="malus8" value="10"/></td>		
+	<td><label style=" background:#1CB826;color:#000;"> Charisme : </label><input type="number" name="Cha" min="0" max="100"/>
+	<input type="checkbox" name="Mal" id="malus9" value="10"/><input type="checkbox" name="Mal" id="malus10" value="10"/></td>		
+	<td><label style=" background:#E63062;color:#000;"> Constitution : </label><input type="number" name="Con" min="0" max="100"/>
+	<input type="checkbox" name="Mal" id="malus11" value="10"/><input type="checkbox" name="Mal" id="malus12" value="10"/></td>		
+	</tr>
+	</table>
+	
+	<br><br>
+	
+	<h3 style="background:#fff;color:#000;text-align:center;margin-bottom: 10px;">Compétences de combat du personnage :</h3>
+	
+	</div>
+	
+	<div style="background-image: url('https://i.pinimg.com/originals/17/86/b7/1786b7fe60bc49b58b3946c370f009b7.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center">
+	
+	
+		<table align="center" style="border-spacing: 50px; width: 850px; text-align: right">
+	<tr>
+	<td><label style="font-size: 25px; background:#1476D2;color:#000;">La voie du mage :</td>
+	<td><label style="font-size: 25px; background:#1CB826;color:#000;">La voie du roublard :</td>
+	<td><label style="font-size: 25px;background:#E63062;color:#000;">La voie du guerrier :</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+	<td>Altération : <input type="number" name="alter" min="0" max="100"/></td>
+	<td>Arme de distance : <input type="number" name="Archerie" min="0" max="100"/></td>
+	<td>Arme de jet : <input type="number" name="armedjet" min="0" max="100"/></td>
+	</tr>
+	<tr>
+	<td>Conjuration : <input type="number" name="conj" min="0" max="100"/></td>
+	<td>Armure légère : <input type="number" name="armu_leg" min="0" max="100"/></td>
+	<td>Armure lourde : <input type="number" name="armu_lourd" min="0" max="100"/></td>
+	</tr>
+	<tr>
+	<td>Destruction : <input type="number" name="dest" min="0" max="100"/></td>
+	<td>Précision : <input type="number" name="precision" min="0" max="100"/></td>
+	<td>Deux mains : <input type="number" name="twohand" min="0" max="100"/></td>
+	</tr>
+	<tr>
+	<td>Illusion : <input type="number" name="Illusion" min="0" max="100"/></td>
+	<td>Vitesse : <input type="number" name="vitesse" min="0" max="100"/></td>
+	<td>Une main : <input type="number" name="onehand" min="0" max="100"/></td>
+	</tr>
+	<tr>
+	<td>Guérison : <input type="number" name="guer" min="0" max="100"/></td>
+	<td>Arme légère : <input type="number" name="armeleg" min="0" max="100"/></td>
+	<td>Parade : <input type="number" name="para" min="0" max="100"/></td>
+	</tr>
+	<tr>
+	<td>Volonté : <input type="number" name="volon" min="0" max="100"/></td>
+	<td>Reflexe : <input type="number" name="refle" min="0" max="100"/></td>
+	<td>Vigueur : <input type="number" name="vigue" min="0" max="100"/></td>
+	</tr>
+	</table>
+	
+	</div>
+	</div>
+	
+	</fieldset>
+	
+	<fieldset>
+	
+	<div style="background-color: #000">
+	
+	<div style="background-image: url('http://www.maximumwall.com/wp-content/uploads/2017/01/wallpaper-image-darkest-dungeon-12.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center">
+	
+		<h3 style="background:#fff;color:#000;text-align:center;margin-bottom: 10px;">Compétences hors combat et spécialités :</h3>
+	
+	<br><br><br><br><br><br><br><br><br><br>
+	
+	
+	
+	<h3 style="background:#fff;color:#000;text-align:center;margin-bottom: 10px;">Armes et armure :</h3>
+	
+	</div>
+	
+	<div style="background-image: url('https://th.bing.com/th/id/R.82d48207b5edb7da5f8e656dabf041bc?rik=Gfy40TOg4zjy7w&riu=http%3a%2f%2fwww.xboxygen.com%2flocal%2fcache-vignettes%2fL790xH317%2fisaac-after-6d71a.jpg%3f1593809948&ehk=M3xyOqUUN3Ss9%2f4kUTxj1Qfa24KWrmdBrSJUzgh8YZs%3d&risl=&pid=ImgRaw');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center">
+	
+		<br>
+	
+		<img src="images/corps1.png" align="right" height="500" width="200" style="margin-right: 7%; margin-top: 2%;">
+		
+		<br><br><br><br><br>
+	
+		<div style="margin: 10px">
+			<div class="col-3">
+			<div class="table">
+			
+			
+		<table style="text-align: right;">
+		
+		<tbody><tr>
+		
+		
+		<tr>
+		<td> Casque : <input type="text" name="casque" style="width: 150px" placeholder="Descriptif de la protection" /><input type="text" name="protec1" style="width: 60px" placeholder="Valeur"  /></td></tr>
+		<tr>
+		<td> Armure : <input type="text" name="Armure" style="width: 150px" placeholder="Descriptif de la protection"  /><input type="text" name="protec2" style="width: 60px" placeholder="Valeur" /></td></tr>
+		<tr>
+		<td> Add : <input type="text" name="protecadd" style="width: 150px" placeholder="Descriptif de la protection"  /><input type="text" name="addd3" style="width: 60px" placeholder="Valeur" /></td>
+		</tr>
+		<tr><td>&nbsp</td></tr>
+		<tr><td>&nbsp</td></tr>
+		<tr><td>&nbsp</td></tr>
+		<tr><td>&nbsp</td></tr>
+		<tr><td>&nbsp</td></tr>
+		<tr><td>&nbsp</td></tr>
+		
+		<tr><td> Arme principale : <input type="text" name="arme1" style="width: 100px" />
+		<select style="width: 50px" name="dé?">
+		<option value="nul">nul</option>
+		<option value="1d3">1d3</option>
+		<option value="1d4">1d4</option>
+		<option value="1d6">1d6</option>
+		<option value="1d8">1d8</option>
+		<option value="1d10">1d10</option>
+		<option value="1d12">1d12</option>
+		<option value="1d20">1d20</option>
+		<option value="2d3">2d3</option>
+		<option value="2d4">2d4</option>
+		<option value="2d6">2d6</option>
+		<option value="2d8">2d8</option>
+		<option value="2d10">2d10</option>
+		<option value="2d12">2d12</option>
+		<option value="2d20">2d20</option>
+		</select></td></tr>
+		<tr><td> Arme secondaire : <input type="text" name="arme2" style="width: 100px" />
+		<select style="width: 50px" name="dé?">
+		<option value="nul">nul</option>
+		<option value="1d3">1d3</option>
+		<option value="1d4">1d4</option>
+		<option value="1d6">1d6</option>
+		<option value="1d8">1d8</option>
+		<option value="1d10">1d10</option>
+		<option value="1d12">1d12</option>
+		<option value="1d20">1d20</option>
+		<option value="2d3">2d3</option>
+		<option value="2d4">2d4</option>
+		<option value="2d6">2d6</option>
+		<option value="2d8">2d8</option>
+		<option value="2d10">2d10</option>
+		<option value="2d12">2d12</option>
+		<option value="2d20">2d20</option>
+		</select></td></tr>
+		<tr><td> Arme tertiaire : <input type="text" name="arme3" style="width: 100px" />
+		<select style="width: 50px" name="dé?">
+		<option value="nul">nul</option>
+		<option value="1d3">1d3</option>
+		<option value="1d4">1d4</option>
+		<option value="1d6">1d6</option>
+		<option value="1d8">1d8</option>
+		<option value="1d10">1d10</option>
+		<option value="1d12">1d12</option>
+		<option value="1d20">1d20</option>
+		<option value="2d3">2d3</option>
+		<option value="2d4">2d4</option>
+		<option value="2d6">2d6</option>
+		<option value="2d8">2d8</option>
+		<option value="2d10">2d10</option>
+		<option value="2d12">2d12</option>
+		<option value="2d20">2d20</option>
+		</select></td></tr>
+		<tr><td> Arme légère : <input type="text" name="armeleg" style="width: 100px" />
+		<select style="width: 50px" name="dé?">
+		<option value="nul">nul</option>
+		<option value="1d3">1d3</option>
+		<option value="1d4">1d4</option>
+		<option value="1d6">1d6</option>
+		<option value="1d8">1d8</option>
+		<option value="1d10">1d10</option>
+		<option value="1d12">1d12</option>
+		<option value="1d20">1d20</option>
+		<option value="2d3">2d3</option>
+		<option value="2d4">2d4</option>
+		<option value="2d6">2d6</option>
+		<option value="2d8">2d8</option>
+		<option value="2d10">2d10</option>
+		<option value="2d12">2d12</option>
+		<option value="2d20">2d20</option>
+		</select></td></tr>
+		<tr><td> Arme de jet : <input type="text" name="armedj" style="width: 100px" />
+		<select style="width: 50px" name="dé?">
+		<option value="nul">nul</option>
+		<option value="1d3">1d3</option>
+		<option value="1d4">1d4</option>
+		<option value="1d6">1d6</option>
+		<option value="1d8">1d8</option>
+		<option value="1d10">1d10</option>
+		<option value="1d12">1d12</option>
+		<option value="1d20">1d20</option>
+		<option value="2d3">2d3</option>
+		<option value="2d4">2d4</option>
+		<option value="2d6">2d6</option>
+		<option value="2d8">2d8</option>
+		<option value="2d10">2d10</option>
+		<option value="2d12">2d12</option>
+		<option value="2d20">2d20</option>
+		</select></td>
+
+		</tr>
+		
+			</tbody></table>
+		
+		</div>
+		</div>
+		</div>
+		
+	
+	<br><br><br><br><br><br><br>
+
+	
+	</div>
+	</div>
+	
+	</fieldset>
+	
+	</form>
+
+	</div>
+
+	</body> 
+
+</html> 
